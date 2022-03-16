@@ -1,0 +1,19 @@
+{
+  "name": "contribute-graph",
+  "version": "1.0.0",
+  "description": "a contribute graph for react with typescript",
+  "main": "index.tsx",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/Lionel-y/contribute-graph.git"
+  },
+  "author": "Lionel",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Lionel-y/contribute-graph/issues"
+  },
+  "homepage": "https://github.com/Lionel-y/contribute-graph#readme"
+}
