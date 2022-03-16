@@ -1,0 +1,12 @@
+export declare const defaultFontSize = 10;
+export declare const defaultFontColor = "#898989";
+export declare const defaultEmptyColor = "#ebedf0";
+export declare const defaultColors: string[];
+export declare const defaultMarginTop = 28;
+export declare const defaultMarginLeft = 10;
+export declare const defaultSize = 12;
+export declare const defaultGap = 1;
+export declare const defaultMonthBarHeight = 10;
+export declare const defualtWeekBarWidth = 28;
+export declare const defaultRadius = 2;
+export declare const defaultRange: [number, number];

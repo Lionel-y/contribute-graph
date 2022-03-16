@@ -1,0 +1,10 @@
+import { GraphData, GraphMetaData, MultiDateType } from "./types";
+export declare const MultipleDate2Date: (date: MultiDateType) => Date;
+export declare const MultipleDate2Str: (date: MultiDateType) => string;
+export declare const oneYearAgo: (d: Date) => Date;
+export declare const diffDays: (d1: Date, d2: Date) => number;
+export declare const diffWeeks: (d1: Date, d2: Date) => number;
+export declare const isSameDay: (d1: MultiDateType, d2: MultiDateType) => boolean;
+export declare const fillData: (d: GraphMetaData[]) => GraphData[];
+export declare const groupData: (d: GraphData[]) => GraphData[][];
+export declare const createColorMap: (range: [number, number], colors: string[], emptyColor: string) => (d: GraphData) => string;

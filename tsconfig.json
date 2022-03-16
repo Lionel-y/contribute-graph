@@ -1,0 +1,31 @@
+{
+  "compilerOptions": {
+    // 当类型推断为any类型时不报错
+    "noImplicitAny": true,
+    // 使用严格模式
+    "strict": true,
+    // 允许引入js文件
+    "allowJs": true,
+    // 修复模块引入的问题
+    "esModuleInterop": true,
+    // 编译的目标模块模式
+    "target": "esnext",
+    // react 17 用react-jsx
+    "jsx": "react-jsx",
+    // 设置程序的模块系统
+    "module": "esnext",
+    // 引入文件时区分大小写
+    "forceConsistentCasingInFileNames": true,
+    // 允许合并默认导入
+    "allowSyntheticDefaultImports": true,
+    // 编译输出的目录
+    // "noEmit": true,
+    "outDir": "./types",
+    "declaration": true,
+    "declarationDir": "./types",
+    "moduleResolution": "node",
+  },
+  "include": [
+    "src"
+  ]
+}
