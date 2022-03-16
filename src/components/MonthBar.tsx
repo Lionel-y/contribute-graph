@@ -45,7 +45,8 @@ const MonthBar = ({
       1
     );
     const monthMap: { month: number; xOffset: number }[] = [];
-    if (diffDays(startDay, nextMonth) <= 14) {
+
+    if (diffDays(startDay, nextMonth) <= (sOffset === 1 ? 21 : 14)) {
       if (diffDays(startDay, nextMonth) >= 7) {
         offset = 2;
         sOffset = offset;
